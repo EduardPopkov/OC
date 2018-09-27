@@ -1,0 +1,8 @@
+#!/bin/sh
+gdialog --inputbox "Input name" 5 20 2>_3.txt
+name=$(cat _3.txt)
+gdialog --clear
+gdialog --inputbox "Input profession" 5 20 2>_4.txt
+prof=$(cat _4.txt)
+gdialog --infobox "$name $prof" 5 20;;
+esac

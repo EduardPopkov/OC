@@ -1,0 +1,4 @@
+1 лаб1_cmd.doc
+file.txt
+lplab02
+lplab03

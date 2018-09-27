@@ -1,0 +1,13 @@
+#!/bin/sh
+
+gdialog --title "Di 1" --yesno "Do you like play football?" 9 18
+case "$?" in
+	0) gdialog --infobox "Kpacava" 5, 20;;
+	1) gdialog --infotbox "You rediska" 5, 20;;
+esac
+sleep 2
+gdialog --title "Di 2" --yesno "Do you like Dota 2?" 10 20
+case "$?" in
+	0) gdialog --infobox "fee" 7, 15;;
+	1) gdialog --infobox "Kpacava" 7, 15;;
+esac
